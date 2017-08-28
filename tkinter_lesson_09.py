@@ -2,7 +2,7 @@ from tkinter import *
 
 class Question:
     def __init__(self, main):
-        self.entry1 = Entry(main, width=3, font=15)
+        self.entry1 = Entry(main, width=15, font=15)
         self.button1 = Button(main, text='Проверить')
         self.label1 = Label(main, width=27, font=15)
 
